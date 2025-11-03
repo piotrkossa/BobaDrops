@@ -22,7 +22,12 @@ main {
 
 .button {
     display: flex;
-    gap: 8px;
+    gap: 5px;
+}
+
+.image {
+    border : 5px solid #e600bf;
+    border-radius: 8px;
 }
 
 .btn {
@@ -30,6 +35,16 @@ main {
     padding: 8px 14px;
     border: 1px solid #333;
     border-color: black;
+    background: #c3ee04;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.recipe {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid #333;
+    border-color: rgb(71, 202, 11);
     background: #fff;
     border-radius: 4px;
     cursor: pointer;
